@@ -1,0 +1,232 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&family=Raleway:ital,wght@0,100;0,500;0,900;1,200&display=swap');
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+}
+h1,h2{
+	font-family: 'Raleway', sans-serif;
+	font-weight:900;
+}
+h4{
+	font-family: 'MonteCarlo', cursive;
+}
+																		/* css */
+
+
+
+.navbar-brand{
+	margin-left: 15vw;	
+}
+.phai{
+	background-image: url("../img/PhuongPotrait.png.jpg");
+	height: 70vh;
+	background-size: cover;
+	background-position: center;
+	
+}
+.row h1{
+	color: #DA0037;
+	position: absolute;
+	top:20vh;
+	left: 5vw;
+	font-size: 43pt;
+}
+.row h3{
+	position: absolute;
+	top:30vh;
+	right: 8.5vw;
+	color: #EDEDED;
+}
+.trai{
+	position: relative;
+}
+
+																/* Home- banner1 */
+
+.banner1{
+	
+	
+	
+}
+
+.banner1 h1{
+	color: #EDEDED;
+	width: 60%;
+	
+	top: 10vh;
+	left: 10vw;
+	border-bottom: solid #DA0037 5px;
+	font-size: 50pt;	
+}
+.bn1-1 h2{
+	
+	top: 30vh;
+	left: 40%;
+	color: #EDEDED;
+	font-size: 40pt;
+}
+.slide1{
+	margin-top: 5vh;
+	
+}
+
+.title-sp{
+	margin-left: 10%;
+}
+
+.bn1-1-text{
+	text-align: center;
+}
+
+												/* CV-   banner2*/
+.banner2{
+	margin-top: 0px;
+	
+	
+}
+
+.banner2 h1{
+	color: #EDEDED;
+	width: 60%;
+	
+	top: 10vh;
+	left: 10vw;
+	border-bottom: solid #DA0037 5px;
+	font-size: 50pt;	
+}
+
+/* skills bar*/
+.progress{
+	padding: 3px;
+	width: 60%;
+	margin-left: 20%;
+	
+}
+.progress-bar{
+	border-radius: 20px;
+}
+.bn2-2 h3{
+	margin-left: 20%;
+	padding-top: 5vh;
+}
+.banner2 h2{
+		top: 30vh;
+	left: 40%;
+	color: #EDEDED;
+	font-size: 40pt;
+}
+.bn2-3{
+	margin-top: 5vh;
+	
+}
+
+.bn2-2-1{
+	padding: 40px;
+	border-radius: 50px;
+	margin-bottom: 5vh;
+	
+}
+.bn2-2-2{
+	padding: 40px;
+	border-radius: 50px;
+}
+.hocvan{
+	margin-left: 12%;
+	
+}
+.hocvan h2{
+	text-align: center;
+	font-size: 30pt;
+	
+}
+.hocvan h5{
+	text-align: center;
+	font-size: 12pt;
+	margin-top: 7%;
+}
+
+											/* form - banner 3*/
+
+.banner3{
+	
+}
+.banner3 h1{
+	color: #EDEDED;
+	width: 60%;
+	
+	top: 10vh;
+	left: 10vw;
+	border-bottom: solid #DA0037 5px;
+	font-size: 50pt;	
+}
+
+
+.fb{
+	font-size: 30pt;
+	color:rgba(0,66,247,1.00);
+}
+.be{
+	font-size: 30pt;
+	color:rgba(0,66,247,1.00);
+}
+
+.formm{
+	border-radius: 10px;
+	
+}
+
+.nut-1:hover{
+	transform: scale(1.3);
+	transition: all .5s linear;
+}
+
+
+.nut-2:hover{
+	background-color: #DA0037;
+	color: #171717;
+	transition: all .5s linear;
+}
+.nut-3:hover{
+	transform: scale(1.7);
+	transition: all .5s linear;
+}
+.anh1:hover{
+	transform: scale(1.1);
+	transition: all .5s linear;
+
+}
+.anh2:hover{
+	transform: scale(1.1);
+	transition: all .5s linear;
+}
+.anh3:hover{
+	transform: scale(1.1);
+	transition: all .5s linear;
+}
+.anh4:hover{
+	transform: scale(1.1);
+	transition: all .5s linear;
+}
+.anh5:hover{
+	transform: scale(1.1);
+	transition: all .5s linear;
+}
+.anh6:hover{
+	transform: scale(1.1);
+	transition: all .5s linear;
+}
+.anh7:hover{
+	transform: scale(1.1);
+	transition: all .5s linear;
+}
+.phuong:hover{
+	transform: scale(2);
+	transition: all 1s linear;
+	color: #DA0037 !important;
+}
